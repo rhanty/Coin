@@ -7,5 +7,5 @@ import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Mintabl
 contract CNToken is ERC20Mintable {
   string public constant name = "Coin";
   string public constant symbol = "CN";
-  uint8 public constant decimals = 0.0000000000;
+  uint8 public constant decimals = 0.000000001;
 }

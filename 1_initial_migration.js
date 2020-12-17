@@ -3,9 +3,9 @@ const crowdsale = artifacts.require('../contracts/CNCrowdsale.sol')
 const setDefaultAccount = require('../scripts/setDefaultAccount.js')
 
 module.exports = function(deployer, network, accounts) {
-    const rate = new web3.BigNumber(0.5)
+    const rate = new web3.BigNumber(500)
     const wallet = '0xdD3820cE5fD54fDEB04c3F13F44364D5955347aF'
-    const cap = 100000
+    const cap = 1000000
     // Setup default account
     setDefaultAccount(web3)
     const account = web3.eth.accounts.pop()
